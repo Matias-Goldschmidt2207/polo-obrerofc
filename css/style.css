@@ -13,7 +13,26 @@ font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
 
 */
+.grids{
+    display: grid;
+    width: 100%;
+    grid-template: 100px 1fr 100px, 200px repeat(2, 1fr);
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer"
+    ;
 
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
 .nav-bar{
     background-color: green;
     display: flex;
@@ -62,6 +81,7 @@ font-family: 'Roboto', sans-serif;
 
 
 /* plantel */
+
 .titulo-plantel{
     background-color: whitesmoke;
     color: green;
