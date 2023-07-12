@@ -282,6 +282,19 @@ footer {
 .short-tit button:active {
     background-color: lightgreen;
 }
+.form{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+input{
+    font-weight: bolder;
+}
+input:focus{
+    box-shadow: 2px 2px 5px lightgreen;
+    background-color: lightgreen;
+}
 
 /* Galeria */
 
