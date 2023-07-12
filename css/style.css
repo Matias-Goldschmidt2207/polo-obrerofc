@@ -664,6 +664,24 @@ h2{
         gap: 10px;
         align-items: center;
     }
+    .titulo-plantel{
+        font-size: 1.75rem;
+    }
+    .subtitulo-arquero{
+        font-size: 1.5rem ;
+    }
+    .subtitulo-defensores{
+        font-size: 1.5rem ;
+    }
+    .subtitulo-mediocampistas{
+        font-size: 1.2rem ;
+    }
+    .subtitulo-delanteros{
+        font-size: 1.5rem ;
+    }
+    .section h4{
+        font-size: 1.30rem;
+    }
     .rem-jug h3{
         font-size: 1.35rem;
         padding-left: 2.5rem;
@@ -707,6 +725,24 @@ h2{
         flex-direction: column;
         gap: 10px;
         align-items: center;
+    }
+    .titulo-plantel{
+        font-size: 1.5rem;
+    }
+    .subtitulo-arquero{
+        font-size: 1.3rem ;
+    }
+    .subtitulo-defensores{
+        font-size: 1.3rem ;
+    }
+    .subtitulo-mediocampistas{
+        font-size: 1.3rem ;
+    }
+    .subtitulo-delanteros{
+        font-size: 1.3rem ;
+    }
+    .section h4{
+        font-size: 1.20rem;
     }
     .rem-jug h3{
         font-size: 1.5rem;
