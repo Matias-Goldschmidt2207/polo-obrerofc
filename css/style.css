@@ -303,6 +303,7 @@ h2{
 }
 .videos{
     display:flex ;
+    flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 2rem;
@@ -529,6 +530,11 @@ h2{
 
 }
 @media(max-width:425px){
+    .nav-bar ul{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
     .titulo-plantel{
         font-size: 2rem;
         font-weight: bolder;
@@ -644,6 +650,11 @@ h2{
 
 
 @media(max-width:375px){
+    .nav-bar ul{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
     .rem-jug h3{
         font-size: 1.35rem;
         padding-left: 2.5rem;
@@ -665,9 +676,29 @@ h2{
     .section-videos h3{
         font-size: 2.5rem;
 }
+.pie-pag h3{
+    font-size: 0.8rem;
+    top: 2rem;
+    padding-left: 0.5rem;
+}
+.pie-pag ul{
+    gap: 0.15rem;
+}
+.pie-pag img{
+    width: 2.5rem;
+    height: 2.5rem;
+} 
 }
 
 @media(max-width:320px){
+    .nav-bar h1{
+        font-size: 2.25rem;
+    }
+    .nav-bar ul{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
     .rem-jug h3{
         font-size: 1.5rem;
         padding-left: 2.5rem;
@@ -705,4 +736,16 @@ h2{
         padding-left: 3.125rem;
         padding-bottom: 1.5625rem ;
 }
+.pie-pag h3{
+    font-size: 0.70rem;
+    top: 1rem;
+    padding-left: 0.5rem;
+}
+.pie-pag ul{
+    gap: 0.05rem;
+}
+.pie-pag img{
+    width: 2.25rem;
+    height: 2.25rem;
+} 
 }
