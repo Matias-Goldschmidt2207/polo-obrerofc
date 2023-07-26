@@ -91,79 +91,32 @@
   padding-top: 1.5625rem;
   font-family: 'Poppins', sans-serif; }
 
-.main-tienda .rem-jug {
+.main-tienda .rem-jug, .main-tienda .rem-arq, .main-tienda .short-tit {
   background-color: whitesmoke;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   font-family: 'Poppins', sans-serif; }
-  .main-tienda .rem-jug h3 {
+  .main-tienda .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
     color: black;
     font-size: 1rem;
     padding-left: 3.125rem;
     padding-bottom: 1.5625rem; }
-  .main-tienda .rem-jug img {
+  .main-tienda .rem-jug img, .main-tienda .rem-arq img, .main-tienda .short-tit img {
     width: 20rem;
     padding-left: 3.125rem; }
-  .main-tienda .rem-jug .rem-jug button {
+  .main-tienda .rem-jug button, .main-tienda .rem-arq button, .main-tienda .short-tit button {
     font-size: 1.5rem;
     color: black;
     background-color: green;
     width: 6.5rem;
     height: 2rem;
     border: .125rem solid black; }
-    .main-tienda .rem-jug .rem-jug button:active {
+    .main-tienda .rem-jug button:active, .main-tienda .rem-arq button:active, .main-tienda .short-tit button:active {
       background-color: lightgreen; }
 
-.main-tienda .rem-arq {
-  background-color: whitesmoke;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-family: 'Poppins', sans-serif; }
-  .main-tienda .rem-arq h3 {
-    color: black;
-    font-size: 1rem;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem; }
-  .main-tienda .rem-arq img {
-    width: 20rem;
-    padding-left: 3.125rem; }
-  .main-tienda .rem-arq button {
-    font-size: 1.5rem;
-    color: black;
-    background-color: green;
-    width: 6.5rem;
-    height: 2rem;
-    border: .125rem solid black; }
-    .main-tienda .rem-arq button:active {
-      background-color: lightgreen; }
-
-.main-tienda .short-tit {
-  background-color: whitesmoke;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-family: 'Poppins', sans-serif; }
-  .main-tienda .short-tit h3 {
-    color: black;
-    font-size: 16px;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem; }
-  .main-tienda .short-tit img {
-    width: 20rem;
-    padding-left: 3.125rem; }
-  .main-tienda .short-tit button {
-    font-size: 1.5rem;
-    color: black;
-    background-color: green;
-    width: 6.5rem;
-    height: 2rem;
-    border: .125rem solid black; }
-    .main-tienda .short-tit button:active {
-      background-color: lightgreen; }
+.main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
+  padding-top: 1.5625rem; }
 
 .main-tienda .form {
   padding-left: 1rem;
@@ -461,27 +414,27 @@
     font-size: 2rem;
     padding-left: 2.5rem;
     padding-bottom: 1rem; }
-  .rem-jug {
+  .rem-jug, .main-tienda .rem-arq, .main-tienda .short-tit {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .rem-jug h3 {
+    .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
       padding-left: 3.125rem;
       padding-right: 3.125rem;
       padding-bottom: 1.5625rem; }
-    .rem-jug img {
+    .rem-jug img, .main-tienda .rem-arq img, .main-tienda .short-tit img {
       width: 100%;
       padding-left: 3.125rem;
       padding-right: 3.125rem; }
-  .rem-arq {
+  .rem-arq, .main-tienda .short-tit {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .rem-arq h3 {
+    .rem-arq h3, .main-tienda .short-tit h3 {
       padding-left: 3.125rem;
       padding-right: 3.125rem;
       padding-bottom: 1.5625rem; }
-    .rem-arq img {
+    .rem-arq img, .main-tienda .short-tit img {
       width: 100%;
       padding-left: 3.125rem;
       padding-right: 3.125rem; }
@@ -556,10 +509,10 @@
     font-size: 1.5rem; }
   .section h4 {
     font-size: 1.30rem; }
-  .rem-jug h3 {
+  .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
     font-size: 1.35rem;
     padding-left: 2.5rem; }
-  .rem-arq h3 {
+  .rem-arq h3, .main-tienda .short-tit h3 {
     font-size: 1.35rem;
     padding-left: 2.5rem; }
   .short-tit h3 {
@@ -628,10 +581,10 @@
     font-size: 1.3rem; }
   .section h4 {
     font-size: 1.20rem; }
-  .rem-jug h3 {
+  .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
     font-size: 1.5rem;
     padding-left: 2.5rem; }
-  .rem-arq h3 {
+  .rem-arq h3, .main-tienda .short-tit h3 {
     font-size: 1.5rem;
     padding-left: 2.5rem; }
   .short-tit h3 {
