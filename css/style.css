@@ -1,10 +1,684 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Poppins:wght@300&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Poppins:wght@300&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.nav-bar {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  position: sticky; }
+  .nav-bar h1 {
+    font-size: 3rem;
+    color: black;
+    right: 36rem;
+    font-family: 'Open Sans', sans-serif; }
+  .nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 1.25rem;
+    font-family: 'Poppins', sans-serif; }
+  .nav-bar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem; }
+    .nav-bar li a:hover {
+      color: white; }
+
+.section-principal {
+  background-image: url(../assets/Fototodos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: row; }
+  .section-principal p {
+    color: white;
+    font-size: 1.2rem;
+    width: 11rem;
+    padding-left: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem; }
+
+.main-plantel .titulo-plantel {
+  background-color: whitesmoke;
+  color: green;
+  font-size: 2.25rem;
+  font-weight: bold;
+  padding-left: 2.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1.5625rem;
+  font-family: 'Poppins', sans-serif; }
+
+.main-plantel .section {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+  font-family: 'Poppins', sans-serif; }
+  .main-plantel .section h4 {
+    color: black;
+    font-size: 1rem;
+    padding-left: 2.5rem;
+    padding-bottom: 0.5rem; }
+  .main-plantel .section img {
+    width: 16.5rem;
+    height: 20rem;
+    padding-left: 2.5rem; }
+
+.subtitulo-arquero, .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+  background-color: whitesmoke;
+  color: red;
+  font-size: 1.5rem;
+  padding-left: 2.5rem;
+  padding-bottom: 1rem;
+  font-family: 'Poppins', sans-serif; }
+
+.subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+  padding-top: 1rem; }
+
+.main-tienda .titulo-tienda {
+  background-color: whitesmoke;
+  color: green;
+  font-size: 2.25rem;
+  font-weight: bold;
+  padding-left: 2.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1.5625rem;
+  font-family: 'Poppins', sans-serif; }
+
+.main-tienda .rem-jug {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Poppins', sans-serif; }
+  .main-tienda .rem-jug h3 {
+    color: black;
+    font-size: 1rem;
+    padding-left: 3.125rem;
+    padding-bottom: 1.5625rem; }
+  .main-tienda .rem-jug img {
+    width: 20rem;
+    padding-left: 3.125rem; }
+  .main-tienda .rem-jug .rem-jug button {
+    font-size: 1.5rem;
+    color: black;
+    background-color: green;
+    width: 6.5rem;
+    height: 2rem;
+    border: .125rem solid black; }
+    .main-tienda .rem-jug .rem-jug button:active {
+      background-color: lightgreen; }
+
+.main-tienda .rem-arq {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Poppins', sans-serif; }
+  .main-tienda .rem-arq h3 {
+    color: black;
+    font-size: 1rem;
+    padding-left: 3.125rem;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem; }
+  .main-tienda .rem-arq img {
+    width: 20rem;
+    padding-left: 3.125rem; }
+  .main-tienda .rem-arq button {
+    font-size: 1.5rem;
+    color: black;
+    background-color: green;
+    width: 6.5rem;
+    height: 2rem;
+    border: .125rem solid black; }
+    .main-tienda .rem-arq button:active {
+      background-color: lightgreen; }
+
+.main-tienda .short-tit {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Poppins', sans-serif; }
+  .main-tienda .short-tit h3 {
+    color: black;
+    font-size: 16px;
+    padding-left: 3.125rem;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem; }
+  .main-tienda .short-tit img {
+    width: 20rem;
+    padding-left: 3.125rem; }
+  .main-tienda .short-tit button {
+    font-size: 1.5rem;
+    color: black;
+    background-color: green;
+    width: 6.5rem;
+    height: 2rem;
+    border: .125rem solid black; }
+    .main-tienda .short-tit button:active {
+      background-color: lightgreen; }
+
+.main-tienda .form {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  .main-tienda .form input {
+    font-weight: bolder; }
+    .main-tienda .form input:focus {
+      box-shadow: 2px 2px 5px lightgreen;
+      background-color: lightgreen; }
+
+.main-galeria h2 {
+  background-color: whitesmoke;
+  color: green;
+  font-size: 2.25rem;
+  padding-left: 3.125rem;
+  padding-bottom: 1.5625rem;
+  padding-top: 1.5625rem;
+  font-family: 'Poppins', sans-serif; }
+
+.main-galeria .section-imagenes {
+  background-color: whitesmoke;
+  font-family: 'Poppins', sans-serif; }
+  .main-galeria .section-imagenes h3 {
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 3.125rem;
+    padding-bottom: 1.5625rem; }
+  .main-galeria .section-imagenes img {
+    width: 27rem;
+    height: 20rem;
+    padding-left: 3rem; }
+
+.main-galeria .section-videos {
+  background-color: whitesmoke;
+  font-family: 'Poppins', sans-serif; }
+  .main-galeria .section-videos h3 {
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 3.125rem;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem; }
+  .main-galeria .section-videos iframe {
+    width: 42rem;
+    height: 19.6875rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    gap: 2rem; }
+
+.main-sponsors .sponsor-principal {
+  background-color: whitesmoke; }
+  .main-sponsors .sponsor-principal h2 {
+    color: green;
+    font-size: 2.25rem;
+    font-weight: bold;
+    padding-left: 2.5rem;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem;
+    font-family: 'Poppins', sans-serif; }
+  .main-sponsors .sponsor-principal img {
+    width: 21.875rem;
+    height: 9rem;
+    padding-left: 3.125rem;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem; }
+
+.main-sponsors .sponsor-secundarios {
+  background-color: whitesmoke; }
+  .main-sponsors .sponsor-secundarios h2 {
+    color: green;
+    font-size: 2.25rem;
+    font-weight: bold;
+    padding-left: 2.5rem;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem;
+    font-family: 'Poppins', sans-serif; }
+  .main-sponsors .sponsor-secundarios img {
+    width: 18.75rem;
+    height: 12rem;
+    padding-left: 3.125rem;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem; }
+
+.pie-pag {
+  background-color: darkgreen;
+  height: 5rem; }
+  .pie-pag h3 {
+    font-size: 0.8rem;
+    color: black;
+    position: relative;
+    top: 1.5rem;
+    padding-left: 1.5rem;
+    font-family: 'Playfair Display', serif; }
+  .pie-pag ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1.25rem; }
+  .pie-pag img {
+    width: 3.2rem;
+    height: 3.2rem;
+    text-align: right;
+    padding-top: 1rem;
+    padding-right: 0.5rem; }
+
+@media (max-width: 1024px) {
+  .main-plantel .titulo-plantel {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding-left: 2.35rem; }
+  .main-plantel .section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem; }
+    .main-plantel .section h4 {
+      color: black;
+      font-size: 1.5rem;
+      padding-left: 2.5rem;
+      padding-bottom: 0.5rem; }
+    .main-plantel .section img {
+      width: 31rem;
+      height: 33rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem; }
+  .subtitulo-arquero, .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+    color: red;
+    font-size: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+    color: red;
+    font-size: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .subtitulo-mediocampistas {
+    color: red;
+    font-size: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .subtitulo-delanteros {
+    color: red;
+    font-size: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .main-galeria .section-imagenes img {
+    width: 20rem;
+    height: 16rem;
+    padding-left: 3rem; }
+  iframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    width: 60rem;
+    height: 36rem; } }
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; }
+  .main-plantel .titulo-plantel {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-left: 2rem; }
+  .main-plantel .section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem; }
+    .main-plantel .section h4 {
+      color: black;
+      font-size: 1.25rem;
+      padding-left: 2.5rem;
+      padding-bottom: 0.5rem; }
+    .main-plantel .section img {
+      width: 23rem;
+      height: 25rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem; }
+  .subtitulo-arquero, .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+    color: red;
+    font-size: 2rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+    color: red;
+    font-size: 2rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .subtitulo-mediocampistas {
+    color: red;
+    font-size: 2rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .subtitulo-delanteros {
+    color: red;
+    font-size: 2rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .short-tit button {
+    position: relative; }
+  .section-imagenes img {
+    align-items: center;
+    width: 100%;
+    height: 25rem;
+    padding-left: 3rem;
+    padding-right: 3rem; }
+  iframe {
+    align-items: center;
+    width: 100%;
+    height: 25rem;
+    padding-left: 3rem;
+    padding-right: 3rem; }
+  .sponsor-principal img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 14rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem; }
+  .sponsor-secundarios img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    height: 15rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem; } }
+
+@media (max-width: 425px) {
+  .nav-bar h1 {
+    font-size: 3rem; }
+  .nav-bar ul {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center; }
+  .section-principal p {
+    color: white;
+    font-size: 1.2rem;
+    width: 25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem; }
+  .main-plantel .titulo-plantel {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-left: 2rem; }
+  .main-plantel .section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3rem; }
+    .main-plantel .section h4 {
+      color: black;
+      font-size: 1.5rem;
+      padding-left: 2.5rem;
+      padding-bottom: 0.5rem; }
+    .main-plantel .section img {
+      width: 100%;
+      height: 30rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem; }
+  .subtitulo-arquero, .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+    color: red;
+    font-size: 2rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+    color: red;
+    font-size: 2rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .subtitulo-mediocampistas {
+    color: red;
+    font-size: 2rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .subtitulo-delanteros {
+    color: red;
+    font-size: 2rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem; }
+  .rem-jug {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .rem-jug h3 {
+      padding-left: 3.125rem;
+      padding-right: 3.125rem;
+      padding-bottom: 1.5625rem; }
+    .rem-jug img {
+      width: 100%;
+      padding-left: 3.125rem;
+      padding-right: 3.125rem; }
+  .rem-arq {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .rem-arq h3 {
+      padding-left: 3.125rem;
+      padding-right: 3.125rem;
+      padding-bottom: 1.5625rem; }
+    .rem-arq img {
+      width: 100%;
+      padding-left: 3.125rem;
+      padding-right: 3.125rem; }
+  .short-tit {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .short-tit h3 {
+      padding-left: 3.125rem;
+      padding-right: 3.125rem;
+      padding-bottom: 1.5625rem; }
+    .short-tit img {
+      width: 100%;
+      padding-left: 3.125rem;
+      padding-right: 3.125rem; }
+  .main-galeria h2 {
+    font-size: 3rem; }
+  .section-imagenes h3 {
+    font-size: 2rem; }
+  .section-imagenes img {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 23rem;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  .section-videos h3 {
+    font-size: 2rem; }
+  .section-videos iframe {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 26rem;
+    height: 15rem; }
+  .sponsor-principal h2 {
+    font-size: 2.25rem; }
+  .sponsor-secundarios h2 {
+    font-size: 2rem; }
+  .pie-pag ul {
+    gap: 0.25rem; }
+  .pie-pag img {
+    width: 2.5rem;
+    height: 2.5rem; } }
+
+@media (max-width: 375px) {
+  .nav-bar ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; }
+  .section-principal p {
+    color: white;
+    font-size: 1.2rem;
+    width: 18rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem; }
+  .titulo-plantel {
+    font-size: 1.75rem; }
+  .subtitulo-arquero, .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+    font-size: 1.5rem; }
+  .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+    font-size: 1.5rem; }
+  .subtitulo-mediocampistas {
+    font-size: 1.2rem; }
+  .subtitulo-delanteros {
+    font-size: 1.5rem; }
+  .section h4 {
+    font-size: 1.30rem; }
+  .rem-jug h3 {
+    font-size: 1.35rem;
+    padding-left: 2.5rem; }
+  .rem-arq h3 {
+    font-size: 1.35rem;
+    padding-left: 2.5rem; }
+  .short-tit h3 {
+    font-size: 1.35rem;
+    padding-left: 2.5rem; }
+  .main-galeria h2 {
+    font-size: 3.5rem; }
+  .section-imagenes h3 {
+    font-size: 2rem; }
+  .section-imagenes img {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    align-items: center;
+    width: 23rem;
+    height: 18rem; }
+  .section-videos h3 {
+    font-size: 2rem; }
+  .section-videos iframe {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 23rem;
+    height: 13rem; }
+  .sponsor-principal h2 {
+    font-size: 2rem; }
+  .sponsor-secundarios h2 {
+    font-size: 1.75rem; }
+  .pie-pag h3 {
+    font-size: 0.8rem;
+    top: 2rem;
+    padding-left: 0.5rem; }
+  .pie-pag ul {
+    gap: 0.15rem; }
+  .pie-pag img {
+    width: 2.5rem;
+    height: 2.5rem; } }
+
+@media (max-width: 320px) {
+  .nav-bar h1 {
+    font-size: 2.25rem; }
+  .nav-bar ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; }
+  .section-principal p {
+    color: white;
+    font-size: 1.2rem;
+    width: 16rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem; }
+  .titulo-plantel {
+    font-size: 1.5rem; }
+  .subtitulo-arquero, .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+    font-size: 1.3rem; }
+  .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
+    font-size: 1.3rem; }
+  .subtitulo-mediocampistas {
+    font-size: 1.3rem; }
+  .subtitulo-delanteros {
+    font-size: 1.3rem; }
+  .section h4 {
+    font-size: 1.20rem; }
+  .rem-jug h3 {
+    font-size: 1.5rem;
+    padding-left: 2.5rem; }
+  .rem-arq h3 {
+    font-size: 1.5rem;
+    padding-left: 2.5rem; }
+  .short-tit h3 {
+    font-size: 1.5rem;
+    padding-left: 2.5rem; }
+  .main-gqaleria h2 {
+    font-size: 3rem;
+    padding-left: 2.5rem; }
+  .section-imagenes h3 {
+    font-size: 1.5rem;
+    padding-left: 3.125rem;
+    padding-bottom: 1.5625rem; }
+  .section-imagenes img {
+    width: 20rem;
+    height: 14rem; }
+  .videos {
+    gap: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 4rem; }
+  .section-videos h3 {
+    font-size: 1.5rem;
+    padding-left: 3.125rem;
+    padding-bottom: 1.5625rem; }
+  .section-videos iframe {
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 20rem;
+    height: 12rem; }
+  .sponsor-principal h2 {
+    font-size: 1.5rem; }
+  .sponsor-secundarios h2 {
+    font-size: 1.30rem; }
+  .pie-pag h3 {
+    font-size: 0.70rem;
+    top: 1rem;
+    padding-left: 0.5rem; }
+  .pie-pag ul {
+    gap: 0.05rem; }
+  .pie-pag img {
+    width: 2.25rem;
+    height: 2.25rem; } }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /* fuentes
 
@@ -15,1010 +689,16 @@ font-family: 'Roboto', sans-serif;
 
 */
 .grids {
-    display: grid;
-    width: 100%;
-    grid-template: 100px 1fr 100px, 200px repeat(2, 1fr);
-    grid-template-areas:
-        "header header header"
-        "main main main"
-        "footer footer footer"
-    ;
-
-}
+  display: grid;
+  width: 100%;
+  grid-template: 100px 1fr 100px, 200px repeat(2, 1fr);
+  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
 
 header {
-    grid-area: header;
-}
+  grid-area: header; }
 
 main {
-    grid-area: main;
-}
+  grid-area: main; }
 
 footer {
-    grid-area: footer;
-}
-
-.nav-bar {
-    background-color: green;
-    display: flex;
-    justify-content: space-between;
-    gap: 1.25rem;
-    position: sticky;
-}
-
-.nav-bar h1 {
-    font-size: 3rem;
-    color: black;
-    right: 36rem;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.nav-bar ul {
-    list-style: none;
-    display: flex;
-    justify-content: end;
-    gap: 1.25rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.nav-bar li a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.25rem;
-}
-
-.nav-bar li a:hover {
-    color: white;
-}
-
-.section-principal {
-    background-image: url(../assets/Foto\ todos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.section-principal p {
-    color: white;
-    font-size: 1.2rem;
-    width: 11rem;
-    padding-left: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-
-
-
-/* plantel */
-
-.titulo-plantel {
-    background-color: whitesmoke;
-    color: green;
-    font-size: 2.25rem;
-    font-weight: bold;
-    padding-left: 2.5rem;
-    padding-bottom: 1rem;
-    padding-top: 1.5625rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.section {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 3rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.subtitulo-arquero {
-    background-color: whitesmoke;
-    color: red;
-    font-size: 1.5rem;
-    padding-left: 2.5rem;
-    padding-bottom: 1rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.section h4 {
-    color: black;
-    font-size: 1rem;
-    padding-left: 2.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.section img {
-    width: 16.5rem;
-    height: 20rem;
-    padding-left: 2.5rem;
-    ;
-}
-
-.subtitulo-defensores {
-    background-color: whitesmoke;
-    color: red;
-    font-size: 1.5rem;
-    padding-left: 2.5rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.subtitulo-mediocampistas {
-    background-color: whitesmoke;
-    color: red;
-    font-size: 1.5rem;
-    padding-left: 2.5rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.subtitulo-delanteros {
-    background-color: whitesmoke;
-    color: red;
-    font-size: 1.5rem;
-    padding-left: 2.5rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-
-/* Tienda */
-.titulo-tienda {
-    background-color: whitesmoke;
-    color: green;
-    font-size: 2.25rem;
-    font-weight: bold;
-    padding-left: 2.5rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.rem-jug {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-family: 'Poppins', sans-serif;
-}
-
-.rem-jug h3 {
-    color: black;
-    font-size: 1rem;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-}
-
-.rem-jug img {
-    width: 20rem;
-    padding-left: 3.125rem;
-}
-
-.rem-jug button {
-    font-size: 1.5rem;
-    color: black;
-    background-color: green;
-    width: 6.5rem;
-    height: 2rem;
-    border: .125rem solid black;
-}
-
-.rem-jug button:active {
-    background-color: lightgreen;
-}
-
-.rem-arq {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-family: 'Poppins', sans-serif;
-}
-
-.rem-arq h3 {
-    color: black;
-    font-size: 1rem;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem;
-}
-
-.rem-arq img {
-    width: 20rem;
-    padding-left: 3.125rem;
-}
-
-.rem-arq button {
-    font-size: 1.5rem;
-    color: black;
-    background-color: green;
-    width: 6.5rem;
-    height: 2rem;
-    border: .125rem solid black;
-}
-
-.rem-arq button:active {
-    background-color: lightgreen;
-}
-
-.short-tit {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-family: 'Poppins', sans-serif;
-}
-
-.short-tit h3 {
-    color: black;
-    font-size: 16px;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem;
-}
-
-.short-tit img {
-    width: 20rem;
-    padding-left: 3.125rem
-}
-
-.short-tit button {
-    font-size: 1.5rem;
-    color: black;
-    background-color: green;
-    width: 6.5rem;
-    height: 2rem;
-    border: .125rem solid black;
-}
-
-.short-tit button:active {
-    background-color: lightgreen;
-}
-.form{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-input{
-    font-weight: bolder;
-}
-input:focus{
-    box-shadow: 2px 2px 5px lightgreen;
-    background-color: lightgreen;
-}
-
-/* Galeria */
-
-h2 {
-    background-color: whitesmoke;
-    color: green;
-    font-size: 2.25rem;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.section-imagenes {
-    background-color: whitesmoke;
-    font-family: 'Poppins', sans-serif;
-}
-
-.section-imagenes h3 {
-    color: black;
-    font-size: 1.5rem;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-}
-
-.section-imagenes img {
-    width: 27rem;
-    height: 20rem;
-    padding-left: 3rem;
-}
-
-.section-videos {
-    background-color: whitesmoke;
-    font-family: 'Poppins', sans-serif;
-}
-
-.section-videos h3 {
-    color: black;
-    font-size: 1.5rem;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem;
-}
-
-iframe {
-    width: 42rem;
-    height: 19.6875rem;
-    padding-left: 3.125rem;
-    padding-right: 3.125rem;
-    gap: 2rem;
-}
-
-/* Sponsors */
-
-.sponsor-principal {
-    background-color: whitesmoke;
-}
-
-.sponsor-principal h2 {
-    color: green;
-    font-size: 2.25rem;
-    font-weight: bold;
-    padding-left: 2.5rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.sponsor-principal img {
-    width: 21.875rem;
-    height: 9rem;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem;
-}
-
-.sponsor-secundarios {
-    background-color: whitesmoke;
-}
-
-.sponsor-secundarios h2 {
-    color: green;
-    font-size: 2.25rem;
-    font-weight: bold;
-    padding-left: 2.5rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.sponsor-secundarios img {
-    width: 18.75rem;
-    height: 12rem;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem;
-}
-
-.pie-pag {
-    background-color: darkgreen;
-    height: 5rem;
-}
-
-.pie-pag h3 {
-    font-size: 0.8rem;
-    color: black;
-    position: relative;
-    top: 1.5rem;
-    padding-left: 1.5rem;
-    font-family: 'Playfair Display', serif;
-}
-
-.pie-pag ul {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    gap: 1.25rem;
-}
-
-.pie-pag img {
-    width: 3.2rem;
-    height: 3.2rem;
-    text-align: right;
-    padding-top: 1rem;
-    padding-right: 0.5rem;
-}
-
-@media (max-width:1024px) {
-    .titulo-plantel {
-        font-size: 3.5rem;
-        font-weight: bolder;
-        padding-left: 2.35rem;
-    }
-
-    .section {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-
-    .subtitulo-arquero {
-        color: red;
-        font-size: 2.5rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .section h4 {
-        color: black;
-        font-size: 1.5rem;
-        padding-left: 2.5rem;
-        padding-bottom: 0.5rem;
-    }
-
-    .section img {
-        width: 31rem;
-        height: 33rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
-    }
-
-    .subtitulo-defensores {
-        color: red;
-        font-size: 2.5rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .subtitulo-mediocampistas {
-        color: red;
-        font-size: 2.5rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .subtitulo-delanteros {
-        color: red;
-        font-size: 2.5rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .section-imagenes img {
-        width: 20rem;
-        height: 16rem;
-        padding-left: 3rem;
-    }
-
-    iframe {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        gap: 2rem;
-        padding-top: 1rem;
-        padding-bottom: 4rem;
-        width: 60rem;
-        height: 36rem;
-    }
-}
-
-@media(max-width:768px) {
-    .nav-bar {
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-    }
-
-    .titulo-plantel {
-        font-size: 3rem;
-        font-weight: bolder;
-        padding-left: 2rem;
-    }
-
-    .section {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-
-    .subtitulo-arquero {
-        color: red;
-        font-size: 2rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .section h4 {
-        color: black;
-        font-size: 1.25rem;
-        padding-left: 2.5rem;
-        padding-bottom: 0.5rem;
-    }
-
-    .section img {
-        width: 23rem;
-        height: 25rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
-    }
-
-    .subtitulo-defensores {
-        color: red;
-        font-size: 2rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .subtitulo-mediocampistas {
-        color: red;
-        font-size: 2rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .subtitulo-delanteros {
-        color: red;
-        font-size: 2rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .short-tit button {
-        position: relative;
-    }
-
-    .section-imagenes img {
-        align-items: center;
-        width: 100%;
-        height: 25rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-
-    iframe {
-        align-items: center;
-        width: 100%;
-        height: 25rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-
-    .sponsor-principal img {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        height: 14rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-bottom: 1.5625rem;
-        padding-top: 1.5625rem;
-    }
-    
-    .sponsor-secundarios img {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 95%;
-        height: 15rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-bottom: 1.5625rem;
-        padding-top: 1.5625rem;
-    }
-
-}
-
-@media(max-width:425px) {
-    .nav-bar h1 {
-        font-size: 3rem;
-    }
-
-    .nav-bar ul {
-        flex-direction: column;
-        gap: 5px;
-        align-items: center;
-    }
-
-    .section-principal p {
-        color: white;
-        font-size: 1.2rem;
-        width: 25rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 8rem;
-        padding-bottom: 5rem;
-    }
-
-    .titulo-plantel {
-        font-size: 2rem;
-        font-weight: bolder;
-        padding-left: 2rem;
-    }
-
-    .section {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 3rem;
-    }
-
-    .subtitulo-arquero {
-        color: red;
-        font-size: 2rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .section h4 {
-        color: black;
-        font-size: 1.5rem;
-        padding-left: 2.5rem;
-        padding-bottom: 0.5rem;
-    }
-
-    .section img {
-        width: 100%;
-        height: 30rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
-    }
-
-    .subtitulo-defensores {
-        color: red;
-        font-size: 2rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .subtitulo-mediocampistas {
-        color: red;
-        font-size: 2rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .subtitulo-delanteros {
-        color: red;
-        font-size: 2rem;
-        padding-left: 2.5rem;
-        padding-bottom: 1rem;
-    }
-
-    .rem-jug {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .rem-jug h3 {
-        padding-left: 3.125rem;
-        padding-right: 3.125rem;
-        padding-bottom: 1.5625rem;
-    }
-
-    .rem-jug img {
-        width: 100%;
-        padding-left: 3.125rem;
-        padding-right: 3.125rem;
-    }
-
-    .rem-arq {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .rem-arq h3 {
-        padding-left: 3.125rem;
-        padding-right: 3.125rem;
-        padding-bottom: 1.5625rem;
-    }
-
-    .rem-arq img {
-        width: 100%;
-        padding-left: 3.125rem;
-        padding-right: 3.125rem;
-    }
-
-    .short-tit {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .short-tit h3 {
-        padding-left: 3.125rem;
-        padding-right: 3.125rem;
-        padding-bottom: 1.5625rem;
-    }
-
-    .short-tit img {
-        width: 100%;
-        padding-left: 3.125rem;
-        padding-right: 3.125rem;
-    }
-
-    h2 {
-        font-size: 3rem;
-    }
-
-    .section-imagenes h3 {
-        font-size: 2rem;
-    }
-
-    .section-imagenes img {
-        display: flex;
-        flex-direction: column;
-        align-content: space-evenly;
-        align-items: center;
-        width: 100%;
-        height: 23rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .section-videos h3 {
-        font-size: 2rem;
-    }
-
-    iframe {
-        display: flex;
-        flex-direction: column;
-        align-content: space-evenly;
-        align-items: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        width: 26rem;
-        height: 15rem;
-    }
-
-    .sponsor-principal h2{
-        font-size: 2.25rem;
-    }
-
-    .sponsor-secundarios h2{
-        font-size: 2rem ;
-    }
-
-    .pie-pag ul {
-        gap: 0.25rem;
-    }
-
-    .pie-pag img {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-}
-
-
-@media(max-width:375px) {
-    .nav-bar ul {
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-    }
-
-    .section-principal p {
-        color: white;
-        font-size: 1.2rem;
-        width: 18rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 8rem;
-        padding-bottom: 5rem;
-    }
-
-    .titulo-plantel {
-        font-size: 1.75rem;
-    }
-
-    .subtitulo-arquero {
-        font-size: 1.5rem;
-    }
-
-    .subtitulo-defensores {
-        font-size: 1.5rem;
-    }
-
-    .subtitulo-mediocampistas {
-        font-size: 1.2rem;
-    }
-
-    .subtitulo-delanteros {
-        font-size: 1.5rem;
-    }
-
-    .section h4 {
-        font-size: 1.30rem;
-    }
-
-    .rem-jug h3 {
-        font-size: 1.35rem;
-        padding-left: 2.5rem;
-    }
-
-    .rem-arq h3 {
-        font-size: 1.35rem;
-        padding-left: 2.5rem;
-    }
-
-    .short-tit h3 {
-        font-size: 1.35rem;
-        padding-left: 2.5rem;
-    }
-
-    h2 {
-        font-size: 3.5rem;
-    }
-
-    .section-imagenes h3 {
-        font-size: 2rem;
-    }
-
-    .section-imagenes img {
-        display: flex;
-        flex-direction: column;
-        align-content: space-evenly;
-        align-items: center;
-        width: 23rem;
-        height: 18rem;
-    }
-
-    .section-videos h3 {
-        font-size: 2rem;
-    }
-
-    iframe {
-        display: flex;
-        flex-direction: column;
-        align-content: space-evenly;
-        align-items: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        width: 23rem;
-        height: 13rem;
-    }
-
-    .sponsor-principal h2{
-        font-size: 2rem;
-    }
-
-    .sponsor-secundarios h2{
-        font-size: 1.75rem ;
-    }
-
-    .pie-pag h3 {
-        font-size: 0.8rem;
-        top: 2rem;
-        padding-left: 0.5rem;
-    }
-
-    .pie-pag ul {
-        gap: 0.15rem;
-    }
-
-    .pie-pag img {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-}
-
-@media(max-width:320px) {
-    .nav-bar h1 {
-        font-size: 2.25rem;
-    }
-
-    .nav-bar ul {
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-    }
-
-    .section-principal p {
-        color: white;
-        font-size: 1.2rem;
-        width: 16rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 8rem;
-        padding-bottom: 5rem;
-    }
-
-    .titulo-plantel {
-        font-size: 1.5rem;
-    }
-
-    .subtitulo-arquero {
-        font-size: 1.3rem;
-    }
-
-    .subtitulo-defensores {
-        font-size: 1.3rem;
-    }
-
-    .subtitulo-mediocampistas {
-        font-size: 1.3rem;
-    }
-
-    .subtitulo-delanteros {
-        font-size: 1.3rem;
-    }
-
-    .section h4 {
-        font-size: 1.20rem;
-    }
-
-    .rem-jug h3 {
-        font-size: 1.5rem;
-        padding-left: 2.5rem;
-    }
-
-    .rem-arq h3 {
-        font-size: 1.5rem;
-        padding-left: 2.5rem;
-    }
-
-    .short-tit h3 {
-        font-size: 1.5rem;
-        padding-left: 2.5rem;
-    }
-
-    h2 {
-        font-size: 3rem;
-        padding-left: 2.5rem;
-    }
-
-    .section-imagenes h3 {
-        font-size: 1.5rem;
-        padding-left: 3.125rem;
-        padding-bottom: 1.5625rem;
-    }
-
-    .section-imagenes img {
-        width: 20rem;
-        height: 14rem;
-    }
-
-    .videos {
-        gap: 2rem;
-        padding-top: 0.5rem;
-        padding-bottom: 4rem;
-    }
-
-    .section-videos h3 {
-        font-size: 1.5rem;
-        padding-left: 3.125rem;
-        padding-bottom: 1.5625rem;
-    }
-
-    iframe {
-        align-items: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        width: 20rem;
-        height: 12rem;
-    }
-
-    .sponsor-principal h2{
-        font-size: 1.5rem;
-    }
-
-    .sponsor-secundarios h2{
-        font-size: 1.30rem ;
-    }
-
-    .pie-pag h3 {
-        font-size: 0.70rem;
-        top: 1rem;
-        padding-left: 0.5rem;
-    }
-
-    .pie-pag ul {
-        gap: 0.05rem;
-    }
-
-    .pie-pag img {
-        width: 2.25rem;
-        height: 2.25rem;
-    }
-}
+  grid-area: footer; }

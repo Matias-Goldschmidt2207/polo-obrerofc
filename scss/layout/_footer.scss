@@ -1,0 +1,28 @@
+.pie-pag {
+        background-color: darkgreen;
+        height: 5rem;
+            h3{
+                font-size: 0.8rem;
+                color: black;
+                position: relative;
+                top: 1.5rem;
+                padding-left: 1.5rem;
+                font-family: 'Playfair Display', serif;
+            }
+            ul{
+                list-style: none;
+                text-decoration: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+                gap: 1.25rem;
+            }
+            img{
+                width: 3.2rem;
+                height: 3.2rem;
+                text-align: right;
+                padding-top: 1rem;
+                padding-right: 0.5rem;
+            }
+    }
+

@@ -1,0 +1,136 @@
+@media(max-width:375px) {
+    .nav-bar {
+        ul {
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+    }
+
+    .section-principal {
+        p {
+            color: white;
+            font-size: 1.2rem;
+            width: 18rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-top: 8rem;
+            padding-bottom: 5rem;
+        }
+    }
+
+    .titulo-plantel {
+        font-size: 1.75rem;
+    }
+
+    .subtitulo-arquero {
+        font-size: 1.5rem;
+    }
+
+    .subtitulo-defensores {
+        font-size: 1.5rem;
+    }
+
+    .subtitulo-mediocampistas {
+        font-size: 1.2rem;
+    }
+
+    .subtitulo-delanteros {
+        font-size: 1.5rem;
+    }
+
+    .section {
+        h4 {
+            font-size: 1.30rem;
+        }
+    }
+
+    .rem-jug {
+        h3 {
+            font-size: 1.35rem;
+            padding-left: 2.5rem;
+        }
+    }
+
+    .rem-arq {
+        h3 {
+            font-size: 1.35rem;
+            padding-left: 2.5rem;
+        }
+    }
+
+    .short-tit {
+        h3 {
+            font-size: 1.35rem;
+            padding-left: 2.5rem;
+        }
+    }
+
+    .main-galeria {
+        h2 {
+            font-size: 3.5rem;
+        }
+    }
+
+    .section-imagenes {
+        h3 {
+            font-size: 2rem;
+        }
+
+        img {
+            display: flex;
+            flex-direction: column;
+            align-content: space-evenly;
+            align-items: center;
+            width: 23rem;
+            height: 18rem;
+        }
+    }
+
+    .section-videos {
+        h3 {
+            font-size: 2rem;
+        }
+
+        iframe {
+            display: flex;
+            flex-direction: column;
+            align-content: space-evenly;
+            align-items: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            width: 23rem;
+            height: 13rem;
+        }
+    }
+
+    .sponsor-principal {
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    .sponsor-secundarios {
+        h2 {
+            font-size: 1.75rem;
+        }
+    }
+
+    .pie-pag {
+        h3 {
+            font-size: 0.8rem;
+            top: 2rem;
+            padding-left: 0.5rem;
+        }
+
+        ul {
+            gap: 0.15rem;
+        }
+
+        img {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
+
+}

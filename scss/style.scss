@@ -1,0 +1,67 @@
+
+@import "./base/reset";
+@import "./base/typo";
+@import "./components/boton";
+@import "./components/bootstrap.scss";
+@import "./layout/header";
+@import "./layout/inicio";
+@import "./layout/plantel";
+@import "./layout/tienda";
+@import "./layout/galeria";
+@import "./layout/sponsor";
+@import "./layout/footer";
+@import "./layout/media1024";
+@import "./layout/media768";
+@import "./layout/media425";
+@import "./layout/media375";
+@import "./layout/media320";
+@import "./utilities/funcion";
+@import "./utilities/mixins";
+@import "./utilities/variable";
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Poppins:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fuentes
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+.grids {
+    display: grid;
+    width: 100%;
+    grid-template: 100px 1fr 100px, 200px repeat(2, 1fr);
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer"
+    ;
+
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+
+

@@ -1,0 +1,50 @@
+.main-galeria {
+    h2 {
+        background-color: whitesmoke;
+        color: green;
+        font-size: 2.25rem;
+        padding-left: 3.125rem;
+        padding-bottom: 1.5625rem;
+        padding-top: 1.5625rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .section-imagenes {
+        background-color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+
+        h3 {
+            color: black;
+            font-size: 1.5rem;
+            padding-left: 3.125rem;
+            padding-bottom: 1.5625rem;
+        }
+
+        img {
+            width: 27rem;
+            height: 20rem;
+            padding-left: 3rem;
+        }
+    }
+
+    .section-videos {
+        background-color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+
+        h3 {
+            color: black;
+            font-size: 1.5rem;
+            padding-left: 3.125rem;
+            padding-bottom: 1.5625rem;            
+            padding-top: 1.5625rem;
+        }
+
+        iframe {
+            width: 42rem;
+            height: 19.6875rem;
+            padding-left: 3.125rem;
+            padding-right: 3.125rem;
+            gap: 2rem;
+        }
+    }
+}

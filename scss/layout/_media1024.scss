@@ -1,0 +1,83 @@
+@media (max-width:1024px) {
+
+.main-plantel{
+    .titulo-plantel {
+        font-size: 3.5rem;
+        font-weight: bolder;
+        padding-left: 2.35rem;
+    }
+    .section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        h4 {
+            color: black;
+            font-size: 1.5rem;
+            padding-left: 2.5rem;
+            padding-bottom: 0.5rem;
+        }
+        img {
+            width: 31rem;
+            height: 33rem;
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+        }
+    }
+}
+
+
+
+    .subtitulo-arquero {
+        color: red;
+        font-size: 2.5rem;
+        padding-left: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+
+    .subtitulo-defensores {
+        color: red;
+        font-size: 2.5rem;
+        padding-left: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .subtitulo-mediocampistas {
+        color: red;
+        font-size: 2.5rem;
+        padding-left: 2.5rem;
+        padding-bottom: 1rem;  
+    }
+
+    .subtitulo-delanteros {
+        color: red;
+        font-size: 2.5rem;
+        padding-left: 2.5rem;
+        padding-bottom: 1rem;    
+    }
+
+.main-galeria{
+    .section-imagenes{
+        img {
+            width: 20rem;
+            height: 16rem;
+            padding-left: 3rem;
+        }
+    }
+}
+
+iframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    width: 60rem;
+    height: 36rem;
+}
+
+}
