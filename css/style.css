@@ -167,9 +167,9 @@
     padding-right: 3.125rem;
     gap: 2rem; }
 
-.main-sponsors .sponsor-principal {
+.main-sponsors .sponsor-principal, .main-sponsors .sponsor-secundarios {
   background-color: whitesmoke; }
-  .main-sponsors .sponsor-principal h2 {
+  .main-sponsors .sponsor-principal h2, .main-sponsors .sponsor-secundarios h2 {
     color: green;
     font-size: 2.25rem;
     font-weight: bold;
@@ -177,29 +177,16 @@
     padding-bottom: 1.5625rem;
     padding-top: 1.5625rem;
     font-family: 'Poppins', sans-serif; }
-  .main-sponsors .sponsor-principal img {
+  .main-sponsors .sponsor-principal img, .main-sponsors .sponsor-secundarios img {
     width: 21.875rem;
     height: 9rem;
     padding-left: 3.125rem;
     padding-bottom: 1.5625rem;
     padding-top: 1.5625rem; }
 
-.main-sponsors .sponsor-secundarios {
-  background-color: whitesmoke; }
-  .main-sponsors .sponsor-secundarios h2 {
-    color: green;
-    font-size: 2.25rem;
-    font-weight: bold;
-    padding-left: 2.5rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem;
-    font-family: 'Poppins', sans-serif; }
-  .main-sponsors .sponsor-secundarios img {
-    width: 18.75rem;
-    height: 12rem;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-    padding-top: 1.5625rem; }
+.main-sponsors .sponsor-secundarios img {
+  width: 18.75rem;
+  height: 12rem; }
 
 .pie-pag {
   background-color: darkgreen;
@@ -339,7 +326,7 @@
     height: 25rem;
     padding-left: 3rem;
     padding-right: 3rem; }
-  .sponsor-principal img {
+  .sponsor-principal img, .main-sponsors .sponsor-secundarios img {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -474,7 +461,7 @@
     padding-bottom: 1rem;
     width: 26rem;
     height: 15rem; }
-  .sponsor-principal h2 {
+  .sponsor-principal h2, .main-sponsors .sponsor-secundarios h2 {
     font-size: 2.25rem; }
   .sponsor-secundarios h2 {
     font-size: 2rem; }
@@ -540,7 +527,7 @@
     padding-bottom: 1rem;
     width: 23rem;
     height: 13rem; }
-  .sponsor-principal h2 {
+  .sponsor-principal h2, .main-sponsors .sponsor-secundarios h2 {
     font-size: 2rem; }
   .sponsor-secundarios h2 {
     font-size: 1.75rem; }
@@ -614,7 +601,7 @@
     padding-bottom: 1rem;
     width: 20rem;
     height: 12rem; }
-  .sponsor-principal h2 {
+  .sponsor-principal h2, .main-sponsors .sponsor-secundarios h2 {
     font-size: 1.5rem; }
   .sponsor-secundarios h2 {
     font-size: 1.30rem; }

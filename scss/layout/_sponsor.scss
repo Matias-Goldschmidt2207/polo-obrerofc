@@ -19,22 +19,10 @@
         }
     }
     .sponsor-secundarios {
-        background-color: whitesmoke;
-        h2 {
-            color: green;
-            font-size: 2.25rem;
-            font-weight: bold;
-            padding-left: 2.5rem;
-            padding-bottom: 1.5625rem;
-            padding-top: 1.5625rem;
-            font-family: 'Poppins', sans-serif;
-        }
+        @extend .sponsor-principal ;
         img {
             width: 18.75rem;
             height: 12rem;
-            padding-left: 3.125rem;
-            padding-bottom: 1.5625rem;
-            padding-top: 1.5625rem;
         }
     }
 }
