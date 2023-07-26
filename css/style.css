@@ -4,6 +4,21 @@
   padding: 0;
   box-sizing: border-box; }
 
+.grids {
+  display: grid;
+  width: 100%;
+  grid-template: 100px 1fr 100px, 200px repeat(2, 1fr);
+  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
+
+header {
+  grid-area: header; }
+
+main {
+  grid-area: main; }
+
+footer {
+  grid-area: footer; }
+
 .nav-bar {
   background-color: green;
   display: flex;
@@ -615,11 +630,6 @@
     width: 2.25rem;
     height: 2.25rem; } }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 /* fuentes
 
 font-family: 'Open Sans', sans-serif;
@@ -628,17 +638,3 @@ font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
 
 */
-.grids {
-  display: grid;
-  width: 100%;
-  grid-template: 100px 1fr 100px, 200px repeat(2, 1fr);
-  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
-
-header {
-  grid-area: header; }
-
-main {
-  grid-area: main; }
-
-footer {
-  grid-area: footer; }
