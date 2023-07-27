@@ -24,8 +24,16 @@
         }
     }
 
-    .titulo-plantel {
-        font-size: 1.5rem;
+    .main-plantel {
+        .titulo-plantel {
+            font-size: 1, 5rem;
+        }
+
+        .section {
+            h4 {
+                font-size: 1.20rem;
+            }
+        }
     }
 
     .subtitulo-arquero {
@@ -44,86 +52,85 @@
         font-size: 1.3rem;
     }
 
-    .section {
-        h4 {
-            font-size: 1.20rem;
+    .main-tienda {
+        .rem-jug {
+            h3 {
+                font-size: 1.5rem;
+                padding-left: 2.5rem;
+            }
+        }
+
+        .rem-arq {
+            h3 {
+                font-size: 1.5rem;
+                padding-left: 2.5rem;
+            }
+        }
+
+        .short-tit {
+            h3 {
+                font-size: 1.5rem;
+                padding-left: 2.5rem;
+            }
         }
     }
 
-    .rem-jug {
-        h3 {
-            font-size: 1.5rem;
-            padding-left: 2.5rem;
-        }
-    }
-
-    .rem-arq {
-        h3 {
-            font-size: 1.5rem;
-            padding-left: 2.5rem;
-        }
-    }
-
-    .short-tit {
-        h3 {
-            font-size: 1.5rem;
-            padding-left: 2.5rem;
-        }
-    }
-
-    .main-gqaleria {
+    .main-galeria {
         h2 {
             font-size: 3rem;
             padding-left: 2.5rem;
         }
-    }
 
-    .section-imagenes {
-        h3 {
-            font-size: 1.5rem;
-            padding-left: 3.125rem;
-            padding-bottom: 1.5625rem;
+
+        .section-imagenes {
+            h3 {
+                font-size: 1.5rem;
+                padding-left: 3.125rem;
+                padding-bottom: 1.5625rem;
+            }
+
+            img {
+                width: 20rem;
+                height: 14rem;
+            }
         }
 
-        img {
-            width: 20rem;
-            height: 14rem;
+
+        .videos {
+            gap: 2rem;
+            padding-top: 0.5rem;
+            padding-bottom: 4rem;
+        }
+
+        .section-videos {
+            h3 {
+                font-size: 1.5rem;
+                padding-left: 3.125rem;
+                padding-bottom: 1.5625rem;
+            }
+
+            iframe {
+                align-items: center;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                width: 20rem;
+                height: 12rem;
+            }
         }
     }
 
-
-    .videos {
-        gap: 2rem;
-        padding-top: 0.5rem;
-        padding-bottom: 4rem;
-    }
-
-    .section-videos {
-        h3 {
-            font-size: 1.5rem;
-            padding-left: 3.125rem;
-            padding-bottom: 1.5625rem;
-        }
-
-        iframe {
-            align-items: center;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            width: 20rem;
-            height: 12rem;
-        }
-    }
-
-
+    .main-sponsors {
     .sponsor-principal {
         h2 {
             font-size: 1.5rem;
         }
     }
 
-    .sponsor-secundarios {
-        h2 {
-            font-size: 1.30rem;
+
+        .sponsor-secundarios {
+            h2 {
+                font-size: 1.5rem;
+            }
         }
     }
 
@@ -143,4 +150,5 @@
             height: 2.25rem;
         }
     }
+
 }

@@ -65,19 +65,21 @@
             padding-left: 3rem;
         }
     }
-}
 
-iframe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 4rem;
-    width: 60rem;
-    height: 36rem;
-}
 
+.section-videos{
+    iframe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
+        width: 60rem;
+        height: 36rem;
+    }
+}
+}
 }

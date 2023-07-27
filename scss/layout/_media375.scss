@@ -19,8 +19,16 @@
         }
     }
 
-    .titulo-plantel {
-        font-size: 1.75rem;
+    .main-plantel {
+        .titulo-plantel {
+            font-size: 1.75rem;
+        }
+
+        .section {
+            h4 {
+                font-size: 1.30rem;
+            }
+        }
     }
 
     .subtitulo-arquero {
@@ -39,30 +47,26 @@
         font-size: 1.5rem;
     }
 
-    .section {
-        h4 {
-            font-size: 1.30rem;
+    .main-tienda {
+        .rem-jug {
+            h3 {
+                font-size: 1.35rem;
+                padding-left: 2.5rem;
+            }
         }
-    }
 
-    .rem-jug {
-        h3 {
-            font-size: 1.35rem;
-            padding-left: 2.5rem;
+        .rem-arq {
+            h3 {
+                font-size: 1.35rem;
+                padding-left: 2.5rem;
+            }
         }
-    }
 
-    .rem-arq {
-        h3 {
-            font-size: 1.35rem;
-            padding-left: 2.5rem;
-        }
-    }
-
-    .short-tit {
-        h3 {
-            font-size: 1.35rem;
-            padding-left: 2.5rem;
+        .short-tit {
+            h3 {
+                font-size: 1.35rem;
+                padding-left: 2.5rem;
+            }
         }
     }
 
@@ -70,49 +74,52 @@
         h2 {
             font-size: 3.5rem;
         }
-    }
 
-    .section-imagenes {
-        h3 {
-            font-size: 2rem;
+
+        .section-imagenes {
+            h3 {
+                font-size: 2rem;
+            }
+
+            img {
+                display: flex;
+                flex-direction: column;
+                align-content: space-evenly;
+                align-items: center;
+                width: 23rem;
+                height: 18rem;
+            }
         }
 
-        img {
-            display: flex;
-            flex-direction: column;
-            align-content: space-evenly;
-            align-items: center;
-            width: 23rem;
-            height: 18rem;
-        }
-    }
+        .section-videos {
+            h3 {
+                font-size: 2rem;
+            }
 
-    .section-videos {
-        h3 {
-            font-size: 2rem;
-        }
-
-        iframe {
-            display: flex;
-            flex-direction: column;
-            align-content: space-evenly;
-            align-items: center;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            width: 23rem;
-            height: 13rem;
-        }
-    }
-
-    .sponsor-principal {
-        h2 {
-            font-size: 2rem;
+            iframe {
+                display: flex;
+                flex-direction: column;
+                align-content: space-evenly;
+                align-items: center;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                width: 23rem;
+                height: 13rem;
+            }
         }
     }
 
-    .sponsor-secundarios {
-        h2 {
-            font-size: 1.75rem;
+    .main-sponsors {
+        .sponsor-principal {
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+
+        .sponsor-secundarios {
+            h2 {
+                font-size: 1.8rem;
+            }
         }
     }
 
@@ -132,5 +139,4 @@
             height: 2.5rem;
         }
     }
-
 }

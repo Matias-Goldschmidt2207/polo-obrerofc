@@ -280,7 +280,7 @@ footer {
     width: 20rem;
     height: 16rem;
     padding-left: 3rem; }
-  iframe {
+  .main-galeria .section-videos iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -338,19 +338,19 @@ footer {
     padding-bottom: 1rem; }
   .short-tit button {
     position: relative; }
-  .section-imagenes img {
+  .main-galeria .section-imagenes img {
     align-items: center;
     width: 100%;
     height: 25rem;
     padding-left: 3rem;
     padding-right: 3rem; }
-  iframe {
+  .main-galeria .section-videos iframe {
     align-items: center;
     width: 100%;
     height: 25rem;
     padding-left: 3rem;
     padding-right: 3rem; }
-  .sponsor-principal img, .main-sponsors .sponsor-secundarios img {
+  .main-sponsors .sponsor-principal img, .main-sponsors .sponsor-secundarios img {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -360,7 +360,7 @@ footer {
     padding-right: 2rem;
     padding-bottom: 1.5625rem;
     padding-top: 1.5625rem; }
-  .sponsor-secundarios img {
+  .main-sponsors .sponsor-secundarios img {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -425,47 +425,47 @@ footer {
     font-size: 2rem;
     padding-left: 2.5rem;
     padding-bottom: 1rem; }
-  .rem-jug, .main-tienda .rem-arq, .main-tienda .short-tit {
+  .main-tienda .rem-jug, .main-tienda .rem-arq, .main-tienda .short-tit {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
+    .main-tienda .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
       padding-left: 3.125rem;
       padding-right: 3.125rem;
       padding-bottom: 1.5625rem; }
-    .rem-jug img, .main-tienda .rem-arq img, .main-tienda .short-tit img {
+    .main-tienda .rem-jug img, .main-tienda .rem-arq img, .main-tienda .short-tit img {
       width: 100%;
       padding-left: 3.125rem;
       padding-right: 3.125rem; }
-  .rem-arq, .main-tienda .short-tit {
+  .main-tienda .rem-arq, .main-tienda .short-tit {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .rem-arq h3, .main-tienda .short-tit h3 {
+    .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
       padding-left: 3.125rem;
       padding-right: 3.125rem;
       padding-bottom: 1.5625rem; }
-    .rem-arq img, .main-tienda .short-tit img {
+    .main-tienda .rem-arq img, .main-tienda .short-tit img {
       width: 100%;
       padding-left: 3.125rem;
       padding-right: 3.125rem; }
-  .short-tit {
+  .main-tienda .short-tit {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .short-tit h3 {
+    .main-tienda .short-tit h3 {
       padding-left: 3.125rem;
       padding-right: 3.125rem;
       padding-bottom: 1.5625rem; }
-    .short-tit img {
+    .main-tienda .short-tit img {
       width: 100%;
       padding-left: 3.125rem;
       padding-right: 3.125rem; }
   .main-galeria h2 {
     font-size: 3rem; }
-  .section-imagenes h3 {
+  .main-galeria .section-imagenes h3 {
     font-size: 2rem; }
-  .section-imagenes img {
+  .main-galeria .section-imagenes img {
     display: flex;
     flex-direction: column;
     align-content: space-evenly;
@@ -474,9 +474,9 @@ footer {
     height: 23rem;
     padding-left: 2rem;
     padding-right: 2rem; }
-  .section-videos h3 {
+  .main-galeria .section-videos h3 {
     font-size: 2rem; }
-  .section-videos iframe {
+  .main-galeria .section-videos iframe {
     display: flex;
     flex-direction: column;
     align-content: space-evenly;
@@ -485,9 +485,9 @@ footer {
     padding-bottom: 1rem;
     width: 26rem;
     height: 15rem; }
-  .sponsor-principal h2, .main-sponsors .sponsor-secundarios h2 {
+  .main-sponsors .sponsor-principal h2, .main-sponsors .sponsor-secundarios h2 {
     font-size: 2.25rem; }
-  .sponsor-secundarios h2 {
+  .main-sponsors .sponsor-secundarios h2 {
     font-size: 2rem; }
   .pie-pag ul {
     gap: 0.25rem; }
@@ -508,8 +508,10 @@ footer {
     padding-right: 2rem;
     padding-top: 8rem;
     padding-bottom: 5rem; }
-  .titulo-plantel {
+  .main-plantel .titulo-plantel {
     font-size: 1.75rem; }
+  .main-plantel .section h4 {
+    font-size: 1.30rem; }
   .subtitulo-arquero, .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
     font-size: 1.5rem; }
   .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
@@ -518,31 +520,29 @@ footer {
     font-size: 1.2rem; }
   .subtitulo-delanteros {
     font-size: 1.5rem; }
-  .section h4 {
-    font-size: 1.30rem; }
-  .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
+  .main-tienda .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
     font-size: 1.35rem;
     padding-left: 2.5rem; }
-  .rem-arq h3, .main-tienda .short-tit h3 {
+  .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
     font-size: 1.35rem;
     padding-left: 2.5rem; }
-  .short-tit h3 {
+  .main-tienda .short-tit h3 {
     font-size: 1.35rem;
     padding-left: 2.5rem; }
   .main-galeria h2 {
     font-size: 3.5rem; }
-  .section-imagenes h3 {
+  .main-galeria .section-imagenes h3 {
     font-size: 2rem; }
-  .section-imagenes img {
+  .main-galeria .section-imagenes img {
     display: flex;
     flex-direction: column;
     align-content: space-evenly;
     align-items: center;
     width: 23rem;
     height: 18rem; }
-  .section-videos h3 {
+  .main-galeria .section-videos h3 {
     font-size: 2rem; }
-  .section-videos iframe {
+  .main-galeria .section-videos iframe {
     display: flex;
     flex-direction: column;
     align-content: space-evenly;
@@ -551,10 +551,10 @@ footer {
     padding-bottom: 1rem;
     width: 23rem;
     height: 13rem; }
-  .sponsor-principal h2, .main-sponsors .sponsor-secundarios h2 {
-    font-size: 2rem; }
-  .sponsor-secundarios h2 {
-    font-size: 1.75rem; }
+  .main-sponsors .sponsor-principal h2, .main-sponsors .sponsor-secundarios h2 {
+    font-size: 1.8rem; }
+  .main-sponsors .sponsor-secundarios h2 {
+    font-size: 1.8rem; }
   .pie-pag h3 {
     font-size: 0.8rem;
     top: 2rem;
@@ -580,8 +580,10 @@ footer {
     padding-right: 2rem;
     padding-top: 8rem;
     padding-bottom: 5rem; }
-  .titulo-plantel {
-    font-size: 1.5rem; }
+  .main-plantel .titulo-plantel {
+    font-size: 1, 5rem; }
+  .main-plantel .section h4 {
+    font-size: 1.20rem; }
   .subtitulo-arquero, .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
     font-size: 1.3rem; }
   .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
@@ -590,45 +592,43 @@ footer {
     font-size: 1.3rem; }
   .subtitulo-delanteros {
     font-size: 1.3rem; }
-  .section h4 {
-    font-size: 1.20rem; }
-  .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
+  .main-tienda .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
     font-size: 1.5rem;
     padding-left: 2.5rem; }
-  .rem-arq h3, .main-tienda .short-tit h3 {
+  .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
     font-size: 1.5rem;
     padding-left: 2.5rem; }
-  .short-tit h3 {
+  .main-tienda .short-tit h3 {
     font-size: 1.5rem;
     padding-left: 2.5rem; }
-  .main-gqaleria h2 {
+  .main-galeria h2 {
     font-size: 3rem;
     padding-left: 2.5rem; }
-  .section-imagenes h3 {
+  .main-galeria .section-imagenes h3 {
     font-size: 1.5rem;
     padding-left: 3.125rem;
     padding-bottom: 1.5625rem; }
-  .section-imagenes img {
+  .main-galeria .section-imagenes img {
     width: 20rem;
     height: 14rem; }
-  .videos {
+  .main-galeria .videos {
     gap: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 4rem; }
-  .section-videos h3 {
+  .main-galeria .section-videos h3 {
     font-size: 1.5rem;
     padding-left: 3.125rem;
     padding-bottom: 1.5625rem; }
-  .section-videos iframe {
+  .main-galeria .section-videos iframe {
     align-items: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 20rem;
     height: 12rem; }
-  .sponsor-principal h2, .main-sponsors .sponsor-secundarios h2 {
+  .main-sponsors .sponsor-principal h2, .main-sponsors .sponsor-secundarios h2 {
     font-size: 1.5rem; }
-  .sponsor-secundarios h2 {
-    font-size: 1.30rem; }
+  .main-sponsors .sponsor-secundarios h2 {
+    font-size: 1.5rem; }
   .pie-pag h3 {
     font-size: 0.70rem;
     top: 1rem;

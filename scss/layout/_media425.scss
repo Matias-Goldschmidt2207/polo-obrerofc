@@ -83,59 +83,61 @@
         padding-bottom: 1rem;
     }
 
-    .rem-jug {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .main-tienda {
+        .rem-jug {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-        h3 {
-            padding-left: 3.125rem;
-            padding-right: 3.125rem;
-            padding-bottom: 1.5625rem;
+            h3 {
+                padding-left: 3.125rem;
+                padding-right: 3.125rem;
+                padding-bottom: 1.5625rem;
+            }
+
+            img {
+                width: 100%;
+                padding-left: 3.125rem;
+                padding-right: 3.125rem;
+            }
         }
 
-        img {
-            width: 100%;
-            padding-left: 3.125rem;
-            padding-right: 3.125rem;
-        }
-    }
 
+        .rem-arq {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-    .rem-arq {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+            h3 {
+                padding-left: 3.125rem;
+                padding-right: 3.125rem;
+                padding-bottom: 1.5625rem;
+            }
 
-        h3 {
-            padding-left: 3.125rem;
-            padding-right: 3.125rem;
-            padding-bottom: 1.5625rem;
-        }
-
-        img {
-            width: 100%;
-            padding-left: 3.125rem;
-            padding-right: 3.125rem;
-        }
-    }
-
-
-    .short-tit {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        h3 {
-            padding-left: 3.125rem;
-            padding-right: 3.125rem;
-            padding-bottom: 1.5625rem;
+            img {
+                width: 100%;
+                padding-left: 3.125rem;
+                padding-right: 3.125rem;
+            }
         }
 
-        img {
-            width: 100%;
-            padding-left: 3.125rem;
-            padding-right: 3.125rem;
+
+        .short-tit {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3 {
+                padding-left: 3.125rem;
+                padding-right: 3.125rem;
+                padding-bottom: 1.5625rem;
+            }
+
+            img {
+                width: 100%;
+                padding-left: 3.125rem;
+                padding-right: 3.125rem;
+            }
         }
     }
 
@@ -144,52 +146,53 @@
         h2 {
             font-size: 3rem;
         }
-    }
 
-    .section-imagenes {
-        h3 {
-            font-size: 2rem;
+        .section-imagenes {
+            h3 {
+                font-size: 2rem;
+            }
+
+            img {
+                display: flex;
+                flex-direction: column;
+                align-content: space-evenly;
+                align-items: center;
+                width: 100%;
+                height: 23rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
         }
 
-        img {
-            display: flex;
-            flex-direction: column;
-            align-content: space-evenly;
-            align-items: center;
-            width: 100%;
-            height: 23rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-        }
-    }
+        .section-videos {
+            h3 {
+                font-size: 2rem;
+            }
 
-
-    .section-videos {
-        h3 {
-            font-size: 2rem;
-        }
-
-        iframe {
-            display: flex;
-            flex-direction: column;
-            align-content: space-evenly;
-            align-items: center;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            width: 26rem;
-            height: 15rem;
-        }
-    }
-
-    .sponsor-principal {
-        h2 {
-            font-size: 2.25rem;
+            iframe {
+                display: flex;
+                flex-direction: column;
+                align-content: space-evenly;
+                align-items: center;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                width: 26rem;
+                height: 15rem;
+            }
         }
     }
 
-    .sponsor-secundarios {
-        h2 {
-            font-size: 2rem;
+    .main-sponsors {
+        .sponsor-principal {
+            h2 {
+                font-size: 2.25rem;
+            }
+        }
+
+        .sponsor-secundarios {
+            h2 {
+                font-size: 2rem;
+            }
         }
     }
 
