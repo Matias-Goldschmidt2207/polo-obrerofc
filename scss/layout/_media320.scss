@@ -5,16 +5,15 @@
         }
 
         ul {
-            flex-direction: column;
+            @include flex(column, none, none, center) ;
             gap: 10px;
-            align-items: center;
         }
     }
 
 
     .section-principal {
         p {
-            color: white;
+            color: $color-parrafo-principal;
             font-size: 1.2rem;
             width: 16rem;
             padding-left: 2rem;

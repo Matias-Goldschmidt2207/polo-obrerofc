@@ -1,9 +1,13 @@
+@import "../utilities/mixins" ;
+@import "../utilities/variable" ;
+
+
 .pie-pag {
-        background-color: darkgreen;
+        background-color: $background-secundario;
         height: 5rem;
             h3{
                 font-size: 0.8rem;
-                color: black;
+                color: $color-nombre;
                 position: relative;
                 top: 1.5rem;
                 padding-left: 1.5rem;
@@ -12,9 +16,7 @@
             ul{
                 list-style: none;
                 text-decoration: none;
-                display: flex;
-                flex-direction: row;
-                justify-content: end;
+                @include flex(row, wrap, end, none) ;
                 gap: 1.25rem;
             }
             img{

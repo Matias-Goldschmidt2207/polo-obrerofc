@@ -1,4 +1,5 @@
 @import "../utilities/variable" ;
+@import "../utilities/mixins" ;
 
 .main-plantel {
     .titulo-plantel {
@@ -14,9 +15,7 @@
 
     .section {
         background-color: $background-principal;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include flex(row, wrap, none, none) ;
         row-gap: 3rem;
         font-family: 'Poppins', sans-serif;
 

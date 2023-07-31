@@ -1,12 +1,12 @@
 @import "../utilities/variable" ;
+@import "../utilities/mixins" ;
 
 .section-principal {
     background-image: url(../assets/Fototodos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    display: flex;
-    flex-direction: row;
+    @include flex(row, none, none, none);
         p{
             color: $color-parrafo-principal;
             font-size: 1.2rem;

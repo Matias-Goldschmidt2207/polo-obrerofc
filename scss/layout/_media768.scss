@@ -1,8 +1,7 @@
 @media(max-width:768px) {
     .nav-bar {
-        flex-direction: column;
+        @include flex(column, none, none, center) ;
         gap: 10px;
-        align-items: center;
     }
 
     .main-plantel {
@@ -13,13 +12,11 @@
         }
 
         .section {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
+            @include flex(row, wrap, none, none) ;
             gap: 1rem;
 
             h4 {
-                color: black;
+                color: $color-nombre;
                 font-size: 1.25rem;
                 padding-left: 2.5rem;
                 padding-bottom: 0.5rem;
@@ -35,7 +32,7 @@
     }
 
     .subtitulo-arquero {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;
@@ -43,21 +40,21 @@
 
 
     .subtitulo-defensores {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;   
     }
 
     .subtitulo-mediocampistas {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;    
     }
 
     .subtitulo-delanteros {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;    
@@ -94,9 +91,7 @@
 .main-sponsors{
     .sponsor-principal {
         img {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include flex(column, none, none, center) ;
             width: 100%;
             height: 14rem;
             padding-left: 2rem;
@@ -108,9 +103,7 @@
 
     .sponsor-secundarios {
         img {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include flex(column, none, none, center) ;
             width: 95%;
             height: 15rem;
             padding-left: 2rem;

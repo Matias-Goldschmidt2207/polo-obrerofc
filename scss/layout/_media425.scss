@@ -6,16 +6,15 @@
         }
 
         ul {
-            flex-direction: column;
+            @include flex(column, none, none, center) ;
             gap: 5px;
-            align-items: center;
         }
     }
 
 
     .section-principal {
         p {
-            color: white;
+            color: $color-parrafo-principal;
             font-size: 1.2rem;
             width: 25rem;
             padding-left: 2rem;
@@ -33,13 +32,11 @@
         }
 
         .section {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
+            @include flex(column, wrap, none, none) ;
             gap: 3rem;
 
             h4 {
-                color: black;
+                color: $color-nombre;
                 font-size: 1.5rem;
                 padding-left: 2.5rem;
                 padding-bottom: 0.5rem;
@@ -56,28 +53,28 @@
 
 
     .subtitulo-arquero {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;
     }
 
     .subtitulo-defensores {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;
     }
 
     .subtitulo-mediocampistas {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;
     }
 
     .subtitulo-delanteros {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;
@@ -85,9 +82,7 @@
 
     .main-tienda {
         .rem-jug {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include flex(column, none, none, center) ;
 
             h3 {
                 padding-left: 3.125rem;
@@ -104,9 +99,7 @@
 
 
         .rem-arq {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include flex(column, none, none, center) ;
 
             h3 {
                 padding-left: 3.125rem;
@@ -123,9 +116,7 @@
 
 
         .short-tit {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include flex(column, none, none, center) ;
 
             h3 {
                 padding-left: 3.125rem;
@@ -153,10 +144,8 @@
             }
 
             img {
-                display: flex;
-                flex-direction: column;
+                @include flex(column, none, none, center) ;
                 align-content: space-evenly;
-                align-items: center;
                 width: 100%;
                 height: 23rem;
                 padding-left: 2rem;
@@ -170,10 +159,8 @@
             }
 
             iframe {
-                display: flex;
-                flex-direction: column;
+                @include flex(column, none, none, center) ;
                 align-content: space-evenly;
-                align-items: center;
                 padding-top: 1rem;
                 padding-bottom: 1rem;
                 width: 26rem;

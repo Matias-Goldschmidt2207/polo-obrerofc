@@ -1,29 +1,30 @@
+@import "../utilities/mixins" ;
+@import "../utilities/variable" ;
+
 .nav-bar {
-    background-color: green;
-    display: flex;
-    justify-content: space-between;
+    background-color: $background-secundario;
+    @include flex(row, wrap, space-between, none) ;
     gap: 1.25rem;
     position: sticky;
         h1{
             font-size: 3rem;
-            color: black;
+            color: $color-nombre;
             right: 36rem;
             font-family: 'Open Sans', sans-serif;
         }
         ul{
             list-style: none;
-            display: flex;
-            justify-content: end;
+            @include flex(row, wrap, end, none);
             gap: 1.25rem;
             font-family: 'Poppins', sans-serif;
         }
         li{
             a{
                 text-decoration: none;
-                color: black;
+                color: $color-nombre;
                 font-size: 1.25rem;
                 &:hover{
-                    color: white;
+                    color: $color-parrafo-principal;
                 }
             }
         }

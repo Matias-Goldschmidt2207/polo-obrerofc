@@ -7,12 +7,11 @@
         padding-left: 2.35rem;
     }
     .section {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include flex(row, wrap, none, none) ;
+
         gap: 1rem;
         h4 {
-            color: black;
+            color: $color-nombre;
             font-size: 1.5rem;
             padding-left: 2.5rem;
             padding-bottom: 0.5rem;
@@ -29,7 +28,7 @@
 
 
     .subtitulo-arquero {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2.5rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;
@@ -37,21 +36,21 @@
 
 
     .subtitulo-defensores {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2.5rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;
     }
 
     .subtitulo-mediocampistas {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2.5rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;  
     }
 
     .subtitulo-delanteros {
-        color: red;
+        color: $color-texto-posicion;
         font-size: 2.5rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;    
@@ -69,11 +68,7 @@
 
 .section-videos{
     iframe {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        @include flex(column, wrap, space-evenly, center) ;
         gap: 2rem;
         padding-top: 1rem;
         padding-bottom: 4rem;

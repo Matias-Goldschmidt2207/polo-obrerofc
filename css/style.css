@@ -31,7 +31,10 @@ footer {
 .nav-bar {
   background-color: green;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: none;
   gap: 1.25rem;
   position: sticky; }
   .nav-bar h1 {
@@ -42,7 +45,10 @@ footer {
   .nav-bar ul {
     list-style: none;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: end;
+    align-items: none;
     gap: 1.25rem;
     font-family: 'Poppins', sans-serif; }
   .nav-bar li a {
@@ -58,7 +64,10 @@ footer {
   background-size: cover;
   height: 100%;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: none; }
   .section-principal p {
     color: white;
     font-size: 1.2rem;
@@ -82,6 +91,8 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
   row-gap: 3rem;
   font-family: 'Poppins', sans-serif; }
   .main-plantel .section h4 {
@@ -143,10 +154,11 @@ footer {
   padding-top: 1.5625rem; }
 
 .main-tienda .form {
+  background-color: whitesmoke;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
   .main-tienda .form input {
     font-weight: bolder; }
     .main-tienda .form input:focus {
@@ -166,7 +178,7 @@ footer {
   background-color: whitesmoke;
   font-family: 'Poppins', sans-serif; }
   .main-galeria .section-imagenes h3 {
-    color: red;
+    color: black;
     font-size: 1.5rem;
     padding-left: 3.125rem;
     padding-bottom: 1.5625rem; }
@@ -179,7 +191,7 @@ footer {
   background-color: whitesmoke;
   font-family: 'Poppins', sans-serif; }
   .main-galeria .section-videos h3 {
-    color: red;
+    color: black;
     font-size: 1.5rem;
     padding-left: 3.125rem;
     padding-bottom: 1.5625rem;
@@ -213,7 +225,7 @@ footer {
   height: 12rem; }
 
 .pie-pag {
-  background-color: darkgreen;
+  background-color: green;
   height: 5rem; }
   .pie-pag h3 {
     font-size: 0.8rem;
@@ -227,7 +239,9 @@ footer {
     text-decoration: none;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: end;
+    align-items: none;
     gap: 1.25rem; }
   .pie-pag img {
     width: 3.2rem;
@@ -245,6 +259,8 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: none;
+    align-items: none;
     gap: 1rem; }
     .main-plantel .section h4 {
       color: black;
@@ -283,9 +299,9 @@ footer {
   .main-galeria .section-videos iframe {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 2rem;
     padding-top: 1rem;
     padding-bottom: 4rem;
@@ -294,9 +310,12 @@ footer {
 
 @media (max-width: 768px) {
   .nav-bar {
+    display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: center; }
+    flex-wrap: none;
+    justify-content: none;
+    align-items: center;
+    gap: 10px; }
   .main-plantel .titulo-plantel {
     font-size: 3rem;
     font-weight: bolder;
@@ -305,6 +324,8 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: none;
+    align-items: none;
     gap: 1rem; }
     .main-plantel .section h4 {
       color: black;
@@ -353,6 +374,8 @@ footer {
   .main-sponsors .sponsor-principal img, .main-sponsors .sponsor-secundarios img {
     display: flex;
     flex-direction: column;
+    flex-wrap: none;
+    justify-content: none;
     align-items: center;
     width: 100%;
     height: 14rem;
@@ -363,6 +386,8 @@ footer {
   .main-sponsors .sponsor-secundarios img {
     display: flex;
     flex-direction: column;
+    flex-wrap: none;
+    justify-content: none;
     align-items: center;
     width: 95%;
     height: 15rem;
@@ -375,9 +400,12 @@ footer {
   .nav-bar h1 {
     font-size: 3rem; }
   .nav-bar ul {
+    display: flex;
     flex-direction: column;
-    gap: 5px;
-    align-items: center; }
+    flex-wrap: none;
+    justify-content: none;
+    align-items: center;
+    gap: 5px; }
   .section-principal p {
     color: white;
     font-size: 1.2rem;
@@ -394,6 +422,8 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: none;
+    align-items: none;
     gap: 3rem; }
     .main-plantel .section h4 {
       color: black;
@@ -428,6 +458,8 @@ footer {
   .main-tienda .rem-jug, .main-tienda .rem-arq, .main-tienda .short-tit {
     display: flex;
     flex-direction: column;
+    flex-wrap: none;
+    justify-content: none;
     align-items: center; }
     .main-tienda .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
       padding-left: 3.125rem;
@@ -440,6 +472,8 @@ footer {
   .main-tienda .rem-arq, .main-tienda .short-tit {
     display: flex;
     flex-direction: column;
+    flex-wrap: none;
+    justify-content: none;
     align-items: center; }
     .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
       padding-left: 3.125rem;
@@ -452,6 +486,8 @@ footer {
   .main-tienda .short-tit {
     display: flex;
     flex-direction: column;
+    flex-wrap: none;
+    justify-content: none;
     align-items: center; }
     .main-tienda .short-tit h3 {
       padding-left: 3.125rem;
@@ -468,8 +504,10 @@ footer {
   .main-galeria .section-imagenes img {
     display: flex;
     flex-direction: column;
-    align-content: space-evenly;
+    flex-wrap: none;
+    justify-content: none;
     align-items: center;
+    align-content: space-evenly;
     width: 100%;
     height: 23rem;
     padding-left: 2rem;
@@ -479,8 +517,10 @@ footer {
   .main-galeria .section-videos iframe {
     display: flex;
     flex-direction: column;
-    align-content: space-evenly;
+    flex-wrap: none;
+    justify-content: none;
     align-items: center;
+    align-content: space-evenly;
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 26rem;
@@ -497,9 +537,12 @@ footer {
 
 @media (max-width: 375px) {
   .nav-bar ul {
+    display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: center; }
+    flex-wrap: none;
+    justify-content: none;
+    align-items: center;
+    gap: 10px; }
   .section-principal p {
     color: white;
     font-size: 1.2rem;
@@ -536,8 +579,10 @@ footer {
   .main-galeria .section-imagenes img {
     display: flex;
     flex-direction: column;
-    align-content: space-evenly;
+    flex-wrap: none;
+    justify-content: none;
     align-items: center;
+    align-content: space-evenly;
     width: 23rem;
     height: 18rem; }
   .main-galeria .section-videos h3 {
@@ -545,8 +590,10 @@ footer {
   .main-galeria .section-videos iframe {
     display: flex;
     flex-direction: column;
-    align-content: space-evenly;
+    flex-wrap: none;
+    justify-content: none;
     align-items: center;
+    align-content: space-evenly;
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 23rem;
@@ -569,9 +616,12 @@ footer {
   .nav-bar h1 {
     font-size: 2.25rem; }
   .nav-bar ul {
+    display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: center; }
+    flex-wrap: none;
+    justify-content: none;
+    align-items: center;
+    gap: 10px; }
   .section-principal p {
     color: white;
     font-size: 1.2rem;
