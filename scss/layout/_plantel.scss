@@ -1,7 +1,9 @@
+@import "../utilities/variable" ;
+
 .main-plantel {
     .titulo-plantel {
-        background-color: whitesmoke;
-        color: green;
+        background-color: $background-principal;
+        color: $color-titulos-principales;
         font-size: 2.25rem;
         font-weight: bold;
         padding-left: 2.5rem;
@@ -11,7 +13,7 @@
     }
 
     .section {
-        background-color: whitesmoke;
+        background-color: $background-principal;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -19,7 +21,7 @@
         font-family: 'Poppins', sans-serif;
 
         h4 {
-            color: black;
+            color: $color-nombre;
             font-size: 1rem;
             padding-left: 2.5rem;
             padding-bottom: 0.5rem;
@@ -34,8 +36,8 @@
 }
 
 .subtitulo-arquero {
-    background-color: whitesmoke;
-    color: red;
+    background-color: $background-principal;
+    color: $color-texto-posicion;
     font-size: 1.5rem;
     padding-left: 2.5rem;
     padding-bottom: 1rem;

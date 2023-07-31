@@ -1,7 +1,9 @@
+@import "../utilities/variable" ;
+
 .main-tienda {
     .titulo-tienda {
-        background-color: whitesmoke;
-        color: green;
+        background-color: $background-principal;
+        color: $color-titulos-principales;
         font-size: 2.25rem;
         font-weight: bold;
         padding-left: 2.5rem;
@@ -11,14 +13,14 @@
     }
 
     .rem-jug {
-        background-color: whitesmoke;
+        background-color: $background-principal;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         font-family: 'Poppins', sans-serif;
 
         h3 {
-            color: black;
+            color: $color-nombre;
             font-size: 1rem;
             padding-left: 3.125rem;
             padding-bottom: 1.5625rem;
@@ -31,8 +33,8 @@
 
         button {
             font-size: 1.5rem;
-            color: black;
-            background-color: green;
+            color: $color-nombre;
+            background-color: $color-titulos-principales;
             width: 6.5rem;
             height: 2rem;
             border: .125rem solid black;

@@ -1,7 +1,9 @@
+@import "../utilities/variable" ;
+
 .main-galeria {
     h2 {
-        background-color: whitesmoke;
-        color: green;
+        background-color: $background-principal;
+        color: $color-titulos-principales;
         font-size: 2.25rem;
         padding-left: 3.125rem;
         padding-bottom: 1.5625rem;
@@ -10,11 +12,11 @@
     }
 
     .section-imagenes {
-        background-color: whitesmoke;
+        background-color: $background-principal;
         font-family: 'Poppins', sans-serif;
 
         h3 {
-            color: black;
+            color: $color-texto-posicion;
             font-size: 1.5rem;
             padding-left: 3.125rem;
             padding-bottom: 1.5625rem;
@@ -28,11 +30,11 @@
     }
 
     .section-videos {
-        background-color: whitesmoke;
+        background-color: $background-principal;
         font-family: 'Poppins', sans-serif;
 
         h3 {
-            color: black;
+            color: $color-texto-posicion;
             font-size: 1.5rem;
             padding-left: 3.125rem;
             padding-bottom: 1.5625rem;            
