@@ -14,9 +14,7 @@
 
     .rem-jug {
         background-color: $background-principal;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        @include flex(row, wrap, space-evenly, center) ;
         font-family: 'Poppins', sans-serif;
 
         h3 {
