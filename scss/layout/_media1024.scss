@@ -2,7 +2,6 @@
 
 .main-plantel{
     .titulo-plantel {
-        font-size: 3.5rem;
         font-weight: bolder;
         padding-left: 2.35rem;
     }
@@ -12,7 +11,7 @@
         gap: 1rem;
         h4 {
             color: $color-nombre;
-            font-size: 1.5rem;
+            font-size: 1.35rem;
             padding-left: 2.5rem;
             padding-bottom: 0.5rem;
         }
@@ -29,7 +28,7 @@
 
     .subtitulo-arquero {
         color: $color-texto-posicion;
-        font-size: 2.5rem;
+        font-size: 1.75rem;
         padding-left: 2.5rem;
         padding-bottom: 1rem;
     }
@@ -37,25 +36,32 @@
 
     .subtitulo-defensores {
         color: $color-texto-posicion;
-        font-size: 2.5rem;
+        
         padding-left: 2.5rem;
         padding-bottom: 1rem;
     }
 
     .subtitulo-mediocampistas {
         color: $color-texto-posicion;
-        font-size: 2.5rem;
+        
         padding-left: 2.5rem;
         padding-bottom: 1rem;  
     }
 
     .subtitulo-delanteros {
         color: $color-texto-posicion;
-        font-size: 2.5rem;
+        
         padding-left: 2.5rem;
         padding-bottom: 1rem;    
     }
 
+.main-tienda{
+    .rem-jug{
+        h3{
+            font-size: 1.35rem;
+        }
+    }
+}
 .main-galeria{
     .section-imagenes{
         img {

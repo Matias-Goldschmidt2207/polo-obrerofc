@@ -254,7 +254,6 @@ footer {
 
 @media (max-width: 1024px) {
   .main-plantel .titulo-plantel {
-    font-size: 3.5rem;
     font-weight: bolder;
     padding-left: 2.35rem; }
   .main-plantel .section {
@@ -266,7 +265,7 @@ footer {
     gap: 1rem; }
     .main-plantel .section h4 {
       color: black;
-      font-size: 1.5rem;
+      font-size: 1.35rem;
       padding-left: 2.5rem;
       padding-bottom: 0.5rem; }
     .main-plantel .section img {
@@ -276,24 +275,23 @@ footer {
       padding-right: 2.5rem; }
   .subtitulo-arquero, .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
     color: red;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     padding-left: 2.5rem;
     padding-bottom: 1rem; }
   .subtitulo-defensores, .subtitulo-mediocampistas, .subtitulo-delanteros {
     color: red;
-    font-size: 2.5rem;
     padding-left: 2.5rem;
     padding-bottom: 1rem; }
   .subtitulo-mediocampistas {
     color: red;
-    font-size: 2.5rem;
     padding-left: 2.5rem;
     padding-bottom: 1rem; }
   .subtitulo-delanteros {
     color: red;
-    font-size: 2.5rem;
     padding-left: 2.5rem;
     padding-bottom: 1rem; }
+  .main-tienda .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
+    font-size: 1.35rem; }
   .main-galeria .section-imagenes img {
     width: 20rem;
     height: 16rem;
@@ -319,7 +317,6 @@ footer {
     align-items: center;
     gap: 10px; }
   .main-plantel .titulo-plantel {
-    font-size: 3rem;
     font-weight: bolder;
     padding-left: 2rem; }
   .main-plantel .section {
@@ -359,7 +356,9 @@ footer {
     font-size: 2rem;
     padding-left: 2.5rem;
     padding-bottom: 1rem; }
-  .short-tit button {
+  .main-tienda .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
+    font-size: 1.5rem; }
+  .main-tienda .short-tit button {
     position: relative; }
   .main-galeria .section-imagenes img {
     align-items: center;
@@ -457,6 +456,8 @@ footer {
     font-size: 2rem;
     padding-left: 2.5rem;
     padding-bottom: 1rem; }
+  .main-tienda .titulo-tienda {
+    font-size: 2rem; }
   .main-tienda .rem-jug, .main-tienda .rem-arq, .main-tienda .short-tit {
     display: flex;
     flex-direction: column;
@@ -500,7 +501,7 @@ footer {
       padding-left: 3.125rem;
       padding-right: 3.125rem; }
   .main-galeria h2 {
-    font-size: 3rem; }
+    font-size: 2rem; }
   .main-galeria .section-imagenes h3 {
     font-size: 2rem; }
   .main-galeria .section-imagenes img {
@@ -565,6 +566,8 @@ footer {
     font-size: 1.2rem; }
   .subtitulo-delanteros {
     font-size: 1.5rem; }
+  .main-tienda .titulo-tienda {
+    font-size: 1.75rem; }
   .main-tienda .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
     font-size: 1.35rem;
     padding-left: 2.5rem; }
@@ -575,9 +578,9 @@ footer {
     font-size: 1.35rem;
     padding-left: 2.5rem; }
   .main-galeria h2 {
-    font-size: 3.5rem; }
+    font-size: 1.75rem; }
   .main-galeria .section-imagenes h3 {
-    font-size: 2rem; }
+    font-size: 1.5rem; }
   .main-galeria .section-imagenes img {
     display: flex;
     flex-direction: column;
@@ -601,9 +604,9 @@ footer {
     width: 23rem;
     height: 13rem; }
   .main-sponsors .sponsor-principal h2, .main-sponsors .sponsor-secundarios h2 {
-    font-size: 1.8rem; }
+    font-size: 1.75rem; }
   .main-sponsors .sponsor-secundarios h2 {
-    font-size: 1.8rem; }
+    font-size: 1.75rem; }
   .pie-pag h3 {
     font-size: 0.8rem;
     top: 2rem;
@@ -633,6 +636,8 @@ footer {
     padding-top: 8rem;
     padding-bottom: 5rem; }
   .main-plantel .titulo-plantel {
+    font-size: 1.5rem; }
+  .main-plantel .titulo-plantel {
     font-size: 1, 5rem; }
   .main-plantel .section h4 {
     font-size: 1.20rem; }
@@ -644,20 +649,20 @@ footer {
     font-size: 1.3rem; }
   .subtitulo-delanteros {
     font-size: 1.3rem; }
+  .main-tienda .titulo-tienda {
+    font-size: 1.5rem; }
   .main-tienda .rem-jug h3, .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     padding-left: 2.5rem; }
   .main-tienda .rem-arq h3, .main-tienda .short-tit h3 {
-    font-size: 1.5rem;
     padding-left: 2.5rem; }
   .main-tienda .short-tit h3 {
-    font-size: 1.5rem;
     padding-left: 2.5rem; }
   .main-galeria h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     padding-left: 2.5rem; }
   .main-galeria .section-imagenes h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-left: 3.125rem;
     padding-bottom: 1.5625rem; }
   .main-galeria .section-imagenes img {

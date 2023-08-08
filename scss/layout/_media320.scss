@@ -24,6 +24,9 @@
     }
 
     .main-plantel {
+        .titulo-plantel{
+            font-size: 1.5rem;
+        }
         .titulo-plantel {
             font-size: 1, 5rem;
         }
@@ -52,23 +55,24 @@
     }
 
     .main-tienda {
+        .titulo-tienda{
+            font-size: 1.5rem;
+        }
         .rem-jug {
             h3 {
-                font-size: 1.5rem;
+                font-size: 1.1rem;
                 padding-left: 2.5rem;
             }
         }
 
         .rem-arq {
             h3 {
-                font-size: 1.5rem;
                 padding-left: 2.5rem;
             }
         }
 
         .short-tit {
             h3 {
-                font-size: 1.5rem;
                 padding-left: 2.5rem;
             }
         }

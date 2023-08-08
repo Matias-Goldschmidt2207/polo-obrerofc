@@ -1,18 +1,17 @@
 @media(max-width:768px) {
     .nav-bar {
-        @include flex(column, none, none, center) ;
+        @include flex(column, none, none, center);
         gap: 10px;
     }
 
     .main-plantel {
         .titulo-plantel {
-            font-size: 3rem;
             font-weight: bolder;
             padding-left: 2rem;
         }
 
         .section {
-            @include flex(row, wrap, none, none) ;
+            @include flex(row, wrap, none, none);
             gap: 1rem;
 
             h4 {
@@ -43,74 +42,82 @@
         color: $color-texto-posicion;
         font-size: 2rem;
         padding-left: 2.5rem;
-        padding-bottom: 1rem;   
+        padding-bottom: 1rem;
     }
 
     .subtitulo-mediocampistas {
         color: $color-texto-posicion;
         font-size: 2rem;
         padding-left: 2.5rem;
-        padding-bottom: 1rem;    
+        padding-bottom: 1rem;
     }
 
     .subtitulo-delanteros {
         color: $color-texto-posicion;
         font-size: 2rem;
         padding-left: 2.5rem;
-        padding-bottom: 1rem;    
+        padding-bottom: 1rem;
     }
 
-    .short-tit button {
-        position: relative;
-    }
+    .main-tienda {
+        .rem-jug{
+            h3{
+                font-size: 1.5rem
+            }
+        }
 
-    .main-galeria{
-    .section-imagenes {
-        img {
-            align-items: center;
-            width: 100%;
-            height: 25rem;
-            padding-left: 3rem;
-            padding-right: 3rem;
+        .short-tit button {
+            position: relative;
         }
     }
 
+    .main-galeria {
+        .section-imagenes {
+            img {
+                align-items: center;
+                width: 100%;
+                height: 25rem;
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+        }
 
 
-.section-videos{
-    iframe {
-        align-items: center;
-        width: 100%;
-        height: 25rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-}
-}
 
-.main-sponsors{
-    .sponsor-principal {
-        img {
-            @include flex(column, none, none, center) ;
-            width: 100%;
-            height: 14rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            padding-bottom: 1.5625rem;
-            padding-top: 1.5625rem;
+        .section-videos {
+            iframe {
+                align-items: center;
+                width: 100%;
+                height: 25rem;
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
         }
     }
 
-    .sponsor-secundarios {
-        img {
-            @include flex(column, none, none, center) ;
-            width: 95%;
-            height: 15rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            padding-bottom: 1.5625rem;
-            padding-top: 1.5625rem;
+    .main-sponsors {
+        .sponsor-principal {
+            img {
+                @include flex(column, none, none, center);
+                width: 100%;
+                height: 14rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                padding-bottom: 1.5625rem;
+                padding-top: 1.5625rem;
+            }
+        }
+
+        .sponsor-secundarios {
+            img {
+                @include flex(column, none, none, center);
+                width: 95%;
+                height: 15rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                padding-bottom: 1.5625rem;
+                padding-top: 1.5625rem;
+            }
         }
     }
-}
 }

@@ -81,6 +81,9 @@
     }
 
     .main-tienda {
+        .titulo-tienda{
+            font-size: 2rem
+        }
         .rem-jug {
             @include flex(column, none, none, center) ;
 
